@@ -51,11 +51,11 @@ button.addEventListener("click", function () {
                             let sine = makeArray(dataf, x => Math.sin(x));
                             console.log(sine);
                         }
-                        else if (x.operation == "sine") {
+                        else if (x.operation == "cosine") {
                             let cos = makeArray(dataf, x => Math.cos(x));
                             console.log(cos);
                         }
-                        else if (x.operation == "sine") {
+                        else if (x.operation == "cube") {
                             let cube = makeArray(dataf, x => Math.pow(x, 3));
                             console.log(cube);
                         }
