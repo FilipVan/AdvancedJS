@@ -65,7 +65,7 @@ button.addEventListener("click", function() {
                         } else if (x.operation == "cosine") {
                             result.innerHTML = print(dataf, sum(dataf.data, x => Math.cos(x)));
                         } else if (x.operation == "cube") {
-                            result.innerHTML = print(dataf, sum(dataf.data, x => Math.log(x, 3)));
+                            result.innerHTML = print(dataf, sum(dataf.data, x => Math.pow(x, 3)));
                         }
                     }
                 }
